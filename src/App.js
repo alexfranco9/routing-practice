@@ -6,7 +6,7 @@ import Fourth from './components/Fourth';
 
 function App() {
   return (
-    <div className="App">
+    <div  className="App">
       <Router>
         <Second path="/:input"/>
         <Fourth path="/:str/:color/:backgroundColor"/>
